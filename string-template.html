@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string-template</title>
+</head>
+<body>
+    <script>
+
+     const name = "Randhy Bryan Croen Field";
+     const firstName = "Randhy";
+     const middleName = "Bryan Croen";
+     const lastName = "Field";
+     const template = `Name : ${firstName} ${middleName} ${lastName}`;
+     const lama = "Name : " + firstName + "" + middleName + "" + lastName;
+
+     console.info(template);
+
+     const nilai = 50;
+     const template2 = `Name : ${name}, Lulus : ${nilai > 70}`;
+
+     console.info(template2);
+
+     const multiline = `Nama Saya Randhy,
+Sekarang sedang mencari kerja,
+Ingin menjadi Junior Programmer,
+Kalo lagi malas, paling main game`;
+
+     document.writeln("<pre>")
+     document.writeln(multiline);
+     document.writeln("</pre>");
+
+    </script>
+</body>
+</html>
